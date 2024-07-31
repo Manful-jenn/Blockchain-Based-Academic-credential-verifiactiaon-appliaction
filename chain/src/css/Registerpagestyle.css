@@ -1,0 +1,85 @@
+/* Overall page styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Example font */
+    background-color: #f4f4f8; /* Gray background */
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333; /* Dark background for navbar */
+    color: white;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  /* Container for the login form */
+  .container {
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #f4f4f8; /* Matching the page background */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: adds shadow for better visibility */
+  }
+  
+  /* Header styles */
+  .header .text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header .underline {
+    width: 100px;
+    height: 4px;
+    background-color: #007bff; /* Blue accent line */
+    margin-top: 5px;
+  }
+  
+  .inputs .input input {
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    width: calc(100% - 20px); /* Adjusting width to factor in any container padding */
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Submit button styling */
+  .submit-container .submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Link to registration page */
+  .text2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .text2 span a {
+    color: #007bff;
+    text-decoration: none;
+  }

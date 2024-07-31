@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1D2026;
+  color: #8A94A7;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures minimum height for the body */
+}
+
+.navbar {
+  width: 100%;
+  background-color: #24292E;
+  padding: 10px 20px; /* Adjust padding to control navbar height */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between; /* Space between logo and navigation links */
+  align-items: center; /* Center items vertically within navbar */
+}
+
+.logo {
+  color: white;
+  font-size: 1.5em;
+}
+
+.nav-links {
+  display: flex; /* Ensures links are aligned horizontally */
+}
+
+.nav-links a {
+  color: #8A94A7;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 0.9em;
+  padding: 8px 10px; /* Smaller padding for buttons */
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.content {
+  width: 100%; /* Full width of the container */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-grow: 1; /* Allows content to take up remaining space */
+  text-align: center;
+}
+
+h1, p {
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.primary {
+  background-color: #5061FF;
+}
+
+.primary:hover {
+  background-color: #4051DF;
+}
+
+.button:not(.primary) {
+  background-color: transparent;
+  border: 1px solid #8A94A7;
+}
+
+.button:not(.primary):hover {
+  border-color: white;
+}
+
